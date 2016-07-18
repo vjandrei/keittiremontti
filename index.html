@@ -1,0 +1,76 @@
+---
+layout: splash
+author_profile: false
+excerpt: ""
+header:
+  overlay_image: header-bg.jpg
+  logo: logo.png
+---
+
+{% include base_path %}
+
+
+<div id="about">
+  <div id="aboutImg">
+    <img src="images/keittioremontti-nykyinen-blogpost-16.jpg" alt="keittioremontti-nykyinen-blogpost-16" width="420" height="471" />
+    </div>
+  <div id="aboutText">
+    <div id="aboutTextContent">
+      <h1>Tervetuloa</h1>
+      <h3>Sinulla lukija/katsoja on mahdollisuus päästä kurkkaamaan  miten ruokabloggarin
+      unelmien keittiö syntyy ja toteutuu. Päivittelen keittiön kuulumisia ja
+      edistystä vlogin ja artikkeleiden muodossa. Jos haluat pysyä tiiviisti mukana
+      tilaa tästä rss syöte niin saat aina päivityksistä ilmotuksen. </h3>
+    </div>
+  </div>
+</div>
+
+<ul class="progress-tracker progress-tracker--text progress-tracker--center">
+  <li class="progress-step is-complete">
+    <span class="progress-marker"></span>
+    <span class="progress-text">
+      <h3 class="progress-title">Suunnittelu</h3>
+      <h4 class="progress-title">Keittiö suunnittelu aloitettu 2015 syksyllä</h4>
+    </span>
+  </li>
+
+  <li class="progress-step is-complete">
+    <span class="progress-marker"></span>
+    <span class="progress-text">
+      <h3 class="progress-title">Keittiön valinta</h3>
+      <h4 class="progress-title">Keittiötoimittaja valittu Kvik keittiöt</h4>
+    </span>
+  </li>
+
+  <li class="progress-step is-active">
+    <span class="progress-marker"></span>
+    <span class="progress-text">
+      <h3 class="progress-title">Valmistelu</h3>
+      <h4 class="progress-title">Enemmän odotellaan syksyä ja valmistaudutaan nykyisen keittiön purkamiseen</h4>
+    </span>
+  </li>
+
+  <li class="progress-step">
+    <span class="progress-marker"></span>
+    <span class="progress-text">
+      <h3 class="progress-title">Purku</h3>
+      <h4 class="progress-title">Nykyinen keittiö myydään ja kaadetaan hieman seinää</h4>
+    </span>
+  </li>
+
+  <li class="progress-step">
+    <span class="progress-marker"></span>
+    <span class="progress-text">
+      <h3 class="progress-title">Valmistus</h3>
+      <h4 class="progress-title">Asennus ja kippistelyt</h4>
+    </span>
+  </li>
+</ul>
+
+<div id="mainList">
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
+
+{% include paginator.html %}
