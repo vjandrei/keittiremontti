@@ -1,0 +1,29 @@
+{% include base_path %}
+
+{% if post.header.overlay_image %}
+  {% capture overlay_image %}{{ post.header.overlay_image }}{% endcapture %}
+{% else %}
+  {% capture overlay_image %}{{ site.overlay_image }}{% endcapture %}
+{% endif %}
+<div class="col-md-4">
+  <div class="card card-blog">
+     <a href="{{ base_path }}{{ post.url }}" class="header">
+      {% if overlay_image != blank %}
+      <img src=
+      {% if overlay_image contains "://" %}
+        "{{ overlay_image }}"
+      {% else %}
+        "{{ overlay_image | prepend: "/images/" | prepend: base_path }}"
+      {% endif %}
+      alt="">
+      {% endif %}
+     </a>
+     <div class="content">
+         <h6 class="card-date">Jul 27</h6>
+         <a href="#gaia" class="card-title">
+             <h3>{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h3>
+         </a>
+         <div class="line-divider line-danger"></div>
+     </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="http://schema.org/Person">
+	<div class="author">
+	  <div class="avatar">
+	       {% if author.avatar contains "://" %}
+	    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+				{% else %}
+	    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+				{% endif %}
+	  </div>
+	
+	  <div class="description text-center">
+	      <h3 class="big-text">Maukasta</h3>
+	      <p class="small-text">Ruokablogi</p>
+	  </div>
+	  <div class="social-buttons">
+	      <a href="https://www.facebook.com/maukastaverkkopalvelu/?fref=ts"  target="_blank" class="btn btn-social btn-simple"><i class="fa fa-facebook"></i></a>
+	      <a href="https://www.instagram.com/maukastafi" target="_blank" class="btn btn-social btn-simple"><i class="fa fa-instagram"></i></a>
+	      <a href="https://twitter.com/maukasta" class="btn btn-social btn-simple" target="_blank"><i class="fa fa-twitter"></i></a>
+	  </div>
+	</div>
+</div>

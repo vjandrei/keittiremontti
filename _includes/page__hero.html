@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% if page.header.image contains "://" %}
+  {% capture img_path %}{{ page.header.image }}{% endcapture %}
+{% else %}
+  {% capture img_path %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% if page.header.cta_url contains "://" %}
+  {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
+{% else %}
+  {% capture cta_path %}{{ page.header.cta_url | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% if page.header.overlay_image contains "://" %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
+{% elsif page.header.overlay_image %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% if page.header.logo contains "://" %}
+  {% capture logo_path %}{{ page.header.logo }}{% endcapture %}
+{% elsif page.header.logo %}
+  {% capture logo_path %}{{ page.header.logo | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% if page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+{% endif %}
+
+
+<div class="section section-header-blog">
+    <div class="parallax filter filter-color-black">
+        <div class="image" style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}">
+        </div>
+        <div class="container">
+            <div class="content">
+                <h1>
+                  {% if paginator %}
+                  {% else %}
+                  {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+                  {% endif %}
+                </h1>
+                <h3 class="subtitle">
+                  {% if page.header.caption %}
+                  {{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+                  {% endif %}
+                </h3>
+                <div class="separator separator-danger">✻</div>
+            </div>
+        </div>
+    </div>
+</div>
