@@ -2,75 +2,162 @@
 layout: splash
 author_profile: false
 excerpt: ""
-header:
-  overlay_image: header-bg.jpg
-  logo: logo.png
 ---
 
 {% include base_path %}
 
+<div class="section section-header">
+    <div class="parallax">
+        <div class="image"style="background-image: url('{{ base_path }}/images/header-bg.jpg')"></div>
+        <div class="container">
+            <div class="content">
+                <div class="title-area text-center">
+                <img class="img-responsive" src="{{ base_path }}/images/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div id="about">
-  <div id="aboutImg">
-    <img src="images/keittioremontti-nykyinen-blogpost-16.jpg" alt="keittioremontti-nykyinen-blogpost-16" width="420" height="471" />
-    </div>
-  <div id="aboutText">
-    <div id="aboutTextContent">
-      <h1>Tervetuloa</h1>
-      <h3>Sinulla lukija/katsoja on mahdollisuus päästä kurkkaamaan  miten ruokabloggarin
-      unelmien keittiö syntyy ja toteutuu. Päivittelen keittiön kuulumisia ja
-      edistystä vlogin ja artikkeleiden muodossa. Jos haluat pysyä tiiviisti mukana
-      tilaa tästä rss syöte niin saat aina päivityksistä ilmotuksen. </h3>
-    </div>
+<div class="section">
+  <div class="container">
+      <div class="row">
+          <div class="title-area">
+              <h2>Tervetuloa</h2>
+              <div class="separator separator-danger"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+              <p class="description">Sinulla lukija/katsoja on mahdollisuus päästä kurkkaamaan miten ruokabloggarin unelmien keittiö syntyy ja toteutuu. 
+              Päivittelen keittiön kuulumisia ja edistystä vlogin ja artikkeleiden muodossa. Jos haluat pysyä tiiviisti mukana tilaa tästä rss syöte niin saat aina päivityksistä ilmotuksen.</p>
+          </div>
+      </div>
+      <div class="row">
+          <ul class="progress-tracker progress-tracker--text progress-tracker--center">
+					  <li class="progress-step is-complete">
+					    <span class="progress-marker"></span>
+					    <span class="progress-text">
+					      <h3 class="progress-title">Suunnittelu</h3>
+					      <h4 class="progress-title">Keittiö suunnittelu aloitettu 2015 syksyllä</h4>
+					    </span>
+					  </li>
+					
+					  <li class="progress-step is-complete">
+					    <span class="progress-marker"></span>
+					    <span class="progress-text">
+					      <h3 class="progress-title">Keittiön valinta</h3>
+					      <h4 class="progress-title">Keittiötoimittaja valittu Kvik keittiöt</h4>
+					    </span>
+					  </li>
+					
+					  <li class="progress-step is-active">
+					    <span class="progress-marker"></span>
+					    <span class="progress-text">
+					      <h3 class="progress-title">Valmistelu</h3>
+					      <h4 class="progress-title">Enemmän odotellaan syksyä ja valmistaudutaan nykyisen keittiön purkamiseen</h4>
+					    </span>
+					  </li>
+					
+					  <li class="progress-step">
+					    <span class="progress-marker"></span>
+					    <span class="progress-text">
+					      <h3 class="progress-title">Purku</h3>
+					      <h4 class="progress-title">Nykyinen keittiö myydään ja kaadetaan hieman seinää</h4>
+					    </span>
+					  </li>
+					
+					  <li class="progress-step">
+					    <span class="progress-marker"></span>
+					    <span class="progress-text">
+					      <h3 class="progress-title">Valmistus</h3>
+					      <h4 class="progress-title">Asennus ja kippistelyt</h4>
+					    </span>
+					  </li>
+					</ul>
+      </div>
   </div>
 </div>
 
-<ul class="progress-tracker progress-tracker--text progress-tracker--center">
-  <li class="progress-step is-complete">
-    <span class="progress-marker"></span>
-    <span class="progress-text">
-      <h3 class="progress-title">Suunnittelu</h3>
-      <h4 class="progress-title">Keittiö suunnittelu aloitettu 2015 syksyllä</h4>
-    </span>
-  </li>
+<div class="section section-our-team-freebie">
+    <div class="parallax filter filter-color-gold">
+        <div class="image" style="background-image:url('{{ base_path }}/images/keittioremontti-nykyinen-blogpost-14.jpg')">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2>Kenen keittiö?</h2>
+                        <div class="separator separator-danger"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        <p class="description">
+                        Maukasta ruokablogin pitäjä Andreas ja hänen avovaimonsa keittiöstä on kyse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-  <li class="progress-step is-complete">
-    <span class="progress-marker"></span>
-    <span class="progress-text">
-      <h3 class="progress-title">Keittiön valinta</h3>
-      <h4 class="progress-title">Keittiötoimittaja valittu Kvik keittiöt</h4>
-    </span>
-  </li>
-
-  <li class="progress-step is-active">
-    <span class="progress-marker"></span>
-    <span class="progress-text">
-      <h3 class="progress-title">Valmistelu</h3>
-      <h4 class="progress-title">Enemmän odotellaan syksyä ja valmistaudutaan nykyisen keittiön purkamiseen</h4>
-    </span>
-  </li>
-
-  <li class="progress-step">
-    <span class="progress-marker"></span>
-    <span class="progress-text">
-      <h3 class="progress-title">Purku</h3>
-      <h4 class="progress-title">Nykyinen keittiö myydään ja kaadetaan hieman seinää</h4>
-    </span>
-  </li>
-
-  <li class="progress-step">
-    <span class="progress-marker"></span>
-    <span class="progress-text">
-      <h3 class="progress-title">Valmistus</h3>
-      <h4 class="progress-title">Asennus ja kippistelyt</h4>
-    </span>
-  </li>
-</ul>
-
-<div id="mainList">
+<div class="section section-blog-horizontal">
+  <div class="container">
+      <div class="title">
+          <h5 class="text-gray">Viimeisimmät</h5>
+          <h2>Artikkelit</h2>
+          <div class="separator separator-danger"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+      </div>
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}
+ </div>
 </div>
 
+
 {% include paginator.html %}
+
+<div class="section section-our-clients-freebie">
+  <div class="container">
+      <div class="title-area">
+          <h5 class="subtitle text-gray">Mukana menossa</h5>
+          <h2>Yhteistyökumppanit</h2>
+          <div class="separator separator-danger"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+      </div>
+
+      <ul class="nav nav-text" role="tablist">
+          <li>
+              <a href="#testimonial3" role="tab" data-toggle="tab">
+                  <div class="image-clients">
+                      <img  class="img-circle" src="{{ base_path }}/images/kvik-logo.png" alt="kvik-logo" >
+                  </div>
+              </a>
+          </li>
+      </ul>
+
+
+      <div class="tab-content">
+          <div class="tab-pane active" id="testimonial1">
+              <p class="description">
+              Keittiön toimittajamme Kvik keittiö toimii myös yhteistyökumppanina keittiön toteutuksessa.<br/>
+              <br/>
+              <a href="www.kvik.fi" target="_blank" class="btn btn-danger btn-fill btn-sm">Kvik keittöt</a>
+              </p>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="section section-small section-get-started">
+  <div class="parallax filter filter-color-black">
+      <div class="image"
+          style="background-image: url('{{ base_path }}/images/keittioremontti-nykyinen-blogpost-17.jpg')">
+      </div>
+      <div class="container">
+          <div class="title-area">
+              <h2 class="text-white">Halutko olla mukana remontissa?</h2>
+              <div class="separator line-separator"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+              <p class="description"> Unelmien keittiö ei onnistu ilman hyviä kumppaneita.</p>
+          </div>
+
+          <div class="button-get-started">
+              <a href="#gaia" class="btn btn-danger btn-fill btn-lg">Ota yhteyttä</a>
+          </div>
+      </div>
+  </div>
+</div>

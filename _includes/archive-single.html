@@ -6,31 +6,32 @@
   {% capture overlay_image %}{{ site.overlay_image }}{% endcapture %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="archive__itemImage">
-      <a href="{{ base_path }}{{ post.url }}">
-      {% if overlay_image != blank %}
-        <div class="archive__item-overlay_image">
-          <img src=
+<div class="card card-plain card-blog">
+  <div class="row">
+      <div class="col-sm-6">
+          <a href="{{ base_path }}{{ post.url }}" class="header">
+            {% if overlay_image != blank %}
+            <img src=
             {% if overlay_image contains "://" %}
               "{{ overlay_image }}"
             {% else %}
               "{{ overlay_image | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
             alt="">
-        </div>
-      {% endif %}
-      </a>
+            {% endif %}
+          </a>
       </div>
-      <div class="archive__itemContent">
-        <a href="{{ base_path }}{{ post.url }}">
-        <h2 class="archive__item-title" itemprop="headline">{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
-         </a>
-        {% if post.read_time %}
-          <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
-        {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>{% endif %}
+      <div class="col-sm-5 col-md-offset-1">
+          <div class="content">
+              <a href="{{ base_path }}{{ post.url }}" class="card-title">
+                  <h2 class="archive__item-title" itemprop="headline">{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
+              </a>
+              {% if post.read_time %}
+              <p class="page__meta text-gray"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+              {% endif %}
+              {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>{% endif %}
+              <a href="{{ base_path }}{{ post.url }}" class="btn btn-danger btn-fill">Lue lisää</a>
+          </div>
       </div>
-    </article>
+  </div>
 </div>
