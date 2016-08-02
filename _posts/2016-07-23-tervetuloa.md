@@ -2,6 +2,7 @@
 title:  "Tervetuloa"
 header:
   overlay_image:  "keittioremontti-nykyinen-blogpost-7.jpg"
+  og_image:  "keittioremontti-nykyinen-blogpost-7.jpg"
 categories: 
   - Remontti
 tags:

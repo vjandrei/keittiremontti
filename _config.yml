@@ -6,26 +6,26 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "fi"
+locale                   : "fi-FI"
 title                    : "Keittiöremontti Blogi"
 title_separator          : "-"
 name                     : "Maukasta"
-description              : "Nyt remontoidaan ruokabloggarin keittiö"
+description              : "Nyt remontoidaan ja suunnitellaan ruokabloggarin keittiö"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/keittioremontti"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "maukastafi"
+    shortname            : 
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+    appid                : "383517508441209"
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 
@@ -37,12 +37,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "maukasta"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username               : "maukastaverkkopalvelu"
+  app_id                 : "706459809385922"
+  publisher              : "maukastaverkkopalvelu"
+og_image                 : "some.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-38537090-4"
 
 # Google AdSense
 google_ad_client         :
@@ -65,9 +65,9 @@ google_ad_slot           :
 author:
   name             : "Maukasta"
   avatar           : "maukasta-nav-logo.svg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Ruoan laittaminen ei ole suoritus vaan nautintoa - Andreas."
+  location         : "Suomi"
+  email            : "andreas.koutsoukos@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -151,7 +151,7 @@ kramdown:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Helsinki
 
 
 # Plugins
@@ -204,8 +204,13 @@ tag_archive:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
   ignore:
-    envs: development
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
 
 
 defaults:
