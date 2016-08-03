@@ -29,7 +29,7 @@
               {% if post.read_time %}
               <p class="page__meta text-gray"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
               {% endif %}
-              {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>{% endif %}
+              {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>{% endif %}<br/>
               <a href="{{ base_path }}{{ post.url }}" class="btn btn-danger btn-fill">Lue lisää</a>
           </div>
       </div>

@@ -1934,6 +1934,14 @@ a,
   font-size: 13px;
 }
 
+.section-blog-horizontal card-blog .content {
+  position: relative;
+  text-align: left;
+  padding: 25px;
+}
+	
+}
+
 .card-blog .content {
   position: relative;
   text-align: center;
@@ -1955,11 +1963,24 @@ a,
   padding-bottom: 10px;
   font-size: 1.0em;
 }
+
+@media (max-width: 767px) {
+	.card-blog .content {
+		position: relative;
+		top: 40px;  	
+	}	
+	.card-blog .content .btn{
+		display: block;
+	}
+}
+
 .card-blog .card-title {
   line-height: 1.358823529em;
   margin-bottom: 10px;
   color: #333333;
+  
 }
+
 .card-blog .date-wrapper {
   position: relative;
   top: 16px;
@@ -2912,10 +2933,10 @@ a,
     padding: 0 !important;
   }
   .section-header .parallax, .section-header .static-image {
-    height: 50vh;
+    height: 70vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
-    height: 50vh;
+    height: 70vh;
   }
   .section-header .content {
     top: 50%;
@@ -3337,7 +3358,7 @@ a,
 @media (max-width: 767px) {
   .navbar-transparent {
     padding-top: 0;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(255, 255, 255, 1);
   }
 
   #bodyClick {
@@ -3655,7 +3676,19 @@ a,
   }
 }
 
+
+
 .page__content img{
 	max-width: 100%;
 	height: auto;
+}
+
+@media (max-width: 992px) {
+	.page__content img{
+	  max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    top: 23px;
+    position: relative;
+  }
 }

@@ -72,3 +72,16 @@ var progressTrackerDemo = (function() {
 })();
 
 progressTrackerDemo.initAnimPathDemo();
+
+
+$(window).resize(function(){
+   console.log('resize called');
+   var width = $(window).width();
+   if(width >= 0 && width <= 991){
+       $('.progress-tracker').removeClass('').addClass('progress-tracker--vertical');
+   }
+   else{
+       $('.progress-tracker').removeClass('progress-tracker--vertical').addClass('');
+   }
+})
+.resize();//trigger the resize event on page load.
