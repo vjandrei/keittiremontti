@@ -441,17 +441,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/assets\/js\/jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/js\/jquery.min.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/assets\/js\/main.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -503,6 +492,39 @@
 		"initialSize": 773028,
 		"inputAbbreviatedPath": "\/_site\/images\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/hth-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64417,
+		"inputAbbreviatedPath": "\/_site\/images\/hth-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hth-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/hth-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69768,
+		"inputAbbreviatedPath": "\/_site\/images\/hth-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hth-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/hth-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63040,
+		"inputAbbreviatedPath": "\/_site\/images\/hth-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hth-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -749,6 +771,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/kitzen-1-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71972,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-1-musta.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-1-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-1-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63921,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-1-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-1-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-2-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67151,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-2-musta.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-2-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-2-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66864,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-2-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-2-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-3-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65999,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-3-musta.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-3-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-3-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64276,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-3-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-3-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-4-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76983,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-4-musta.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-4-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/kitzen-4-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65194,
+		"inputAbbreviatedPath": "\/_site\/images\/kitzen-4-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kitzen-4-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/kvik-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -793,11 +903,31 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/some.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 355347,
+		"inputAbbreviatedPath": "\/_site\/images\/some.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/some.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/remontti\/keittionsuunnittelu\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/remontti\/keittionsuunnittelu\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3336,7 +3466,7 @@
 		},
 	"\/assets\/css\/gaia.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/gaia.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3400,6 +3530,39 @@
 		"initialSize": 773028,
 		"inputAbbreviatedPath": "\/images\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hth-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64417,
+		"inputAbbreviatedPath": "\/images\/hth-1.jpg",
+		"outputAbbreviatedPath": "\/images\/hth-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hth-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69768,
+		"inputAbbreviatedPath": "\/images\/hth-2.jpg",
+		"outputAbbreviatedPath": "\/images\/hth-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hth-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63040,
+		"inputAbbreviatedPath": "\/images\/hth-3.jpg",
+		"outputAbbreviatedPath": "\/images\/hth-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3646,6 +3809,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/kitzen-1-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71972,
+		"inputAbbreviatedPath": "\/images\/kitzen-1-musta.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-1-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-1-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63921,
+		"inputAbbreviatedPath": "\/images\/kitzen-1-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-1-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-2-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67151,
+		"inputAbbreviatedPath": "\/images\/kitzen-2-musta.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-2-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-2-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66864,
+		"inputAbbreviatedPath": "\/images\/kitzen-2-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-2-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-3-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65999,
+		"inputAbbreviatedPath": "\/images\/kitzen-3-musta.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-3-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-3-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64276,
+		"inputAbbreviatedPath": "\/images\/kitzen-3-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-3-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-4-musta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76983,
+		"inputAbbreviatedPath": "\/images\/kitzen-4-musta.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-4-musta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kitzen-4-valkoinen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65194,
+		"inputAbbreviatedPath": "\/images\/kitzen-4-valkoinen.jpg",
+		"outputAbbreviatedPath": "\/images\/kitzen-4-valkoinen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/kvik-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3686,6 +3937,17 @@
 		"initialSize": 124853,
 		"inputAbbreviatedPath": "\/images\/mm-layout-examples.png",
 		"outputAbbreviatedPath": "\/images\/mm-layout-examples.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/some.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 355347,
+		"inputAbbreviatedPath": "\/images\/some.jpg",
+		"outputAbbreviatedPath": "\/images\/some.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3743,7 +4005,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "andreas koutsoukos",
+"lastSavedByUser": "Andreas Koutsoukos",
 "manualImportLinks": {
 	},
 "projectAttributes": {

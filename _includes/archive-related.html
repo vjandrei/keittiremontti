@@ -18,8 +18,7 @@
       alt="">
       {% endif %}
      </a>
-     <div class="content">
-         <h6 class="card-date">Jul 27</h6>
+     <div class="content related">
          <a href="#gaia" class="card-title">
              <h3>{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h3>
          </a>
