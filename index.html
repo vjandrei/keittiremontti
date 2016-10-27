@@ -8,13 +8,13 @@ header:
 
 {% include base_path %}
 
-<div class="section section-header">
+<div class="section section-header frontpage">
     <div class="parallax">
         <div class="image"style="background-image: url('{{ base_path }}/images/header-bg.jpg')"></div>
         <div class="container">
             <div class="content">
                 <div class="title-area text-center">
-                <img class="img-responsive" src="{{ base_path }}/images/logo.png" alt="logo">
+                <img class="img-responsive" style="max-width: 80%!important; margin: 0 auto;" src="{{ base_path }}/images/logo.png" alt="logo">
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@ header:
               <h2>Tervetuloa</h2>
               <div class="separator separator-danger"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
               <p class="description">Sinulla lukija/katsoja on mahdollisuus päästä kurkkaamaan miten ruokabloggarin unelmien keittiö syntyy ja toteutuu. 
-              Sivulla päivitellään keittiöremontin kuulumisia ja edistystä videoiden ja artikkeleiden muodossa. Jos haluat pysyä tiiviisti mukana, tilaa tästä rss syöte, niin saat aina päivityksistä ilmotuksen.</p>
+              Sivulla päivitellään keittiöremontin kuulumisia ja edistystä videoiden ja artikkeleiden muodossa. Jos haluat pysyä tiiviisti mukana, tilaa tästä <a href="/feed.xml">rss syöte</a>, niin saat aina päivityksistä ilmotuksen.</p>
           </div>
       </div>
       <div class="row">
@@ -49,7 +49,7 @@ header:
 					    </span>
 					  </li>
 					
-					  <li class="progress-step is-active">
+					  <li class="progress-step is-complete">
 					    <span class="progress-marker"></span>
 					    <span class="progress-text">
 					      <h3 class="progress-title">Valmistelut</h3>
@@ -57,7 +57,7 @@ header:
 					    </span>
 					  </li>
 					
-					  <li class="progress-step">
+					  <li class="progress-step is-active">
 					    <span class="progress-marker"></span>
 					    <span class="progress-text">
 					      <h3 class="progress-title">Purku</h3>
@@ -125,9 +125,23 @@ header:
 
       <ul class="nav nav-text" role="tablist">
           <li>
+              <a href="#testimonial1" role="tab" data-toggle="tab">
+                  <div class="image-clients">
+                      <img  class="" src="{{ base_path }}/images/kvik-logo.png" alt="kvik-logo" >
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#testimonial2" role="tab" data-toggle="tab">
+                  <div class="image-clients">
+                      <img  class="" src="{{ base_path }}/images/abl-logo.png" alt="abl-laatat-logo" >
+                  </div>
+              </a>
+          </li>
+          <li>
               <a href="#testimonial3" role="tab" data-toggle="tab">
                   <div class="image-clients">
-                      <img  class="img-circle" src="{{ base_path }}/images/kvik-logo.png" alt="kvik-logo" >
+                      <img  class="" src="{{ base_path }}/images/helsingintalotekniikka-logo.jpg" alt="abl-laatat-logo" >
                   </div>
               </a>
           </li>
@@ -139,13 +153,39 @@ header:
               <p class="description">
               Keittiön toimittaja, Kvik keittiöt, toimii myös yhteistyökumppanina keittiön toteutuksessa.<br/>
               <br/>
-              <a href="www.kvik.fi" target="_blank" class="btn btn-danger btn-fill btn-sm">Kvik keittöt</a>
+              <a href="http://www.kvik.fi" target="_blank" class="btn btn-danger btn-fill btn-sm">Kvik keittöt</a>
               </p>
           </div>
-      </div>
-
+           <div class="tab-pane" id="testimonial2">
+              <p class="description">
+              Välitilalaattojen toimittaja, Abl laatat, toimii myös yhteistyökumppanina.<br/>
+              <br/>
+              <a href="http://www.abl.fi/" target="_blank" class="btn btn-danger btn-fill btn-sm">Abl laatat</a>
+              </p>
+          </div>
+          <div class="tab-pane" id="testimonial3">
+              <p class="description">
+              Sähköt keittiöön asentaa Helsingin Talotekniikka Oy<br/>
+              <br/>
+              <a href="http://www.helsingintalotekniikka.fi/" target="_blank" class="btn btn-danger btn-fill btn-sm">Abl laatat</a>
+              </p>
+          </div>
+      </div>	
   </div>
 </div>
+
+<div class="section section-our-clients-freebie">
+  <div class="container">
+      <div class="title-area">
+          <h5 class="subtitle text-gray">Jätä kommentti kiitos</h5>
+          <h2>Kommentit</h2>
+					<div class="fb-comments" data-href="http://maukasta.fi/keittioremontti/" data-width="100%" data-numposts="5"></div>
+      </div>
+      <a class="blsdk-follow" href="https://www.bloglovin.com/blogs/keittioremontti-blogi-18296539" target="_blank" data-blsdk-type="button" data-blsdk-counter="false">Follow</a><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://www.bloglovin.com/widget/js/loader.js?v=1";fjs.parentNode.insertBefore(js, fjs);}(document, "script", "bloglovin-sdk"))</script>
+  </div>
+</div>
+
+
 
 <div class="section section-small section-get-started">
   <div class="parallax filter filter-color-black">

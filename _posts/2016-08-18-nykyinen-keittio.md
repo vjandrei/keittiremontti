@@ -6,7 +6,10 @@ header:
 categories: 
   - Remontti
 tags:
-  - update
+  - #keittiö
+  - #keittiöremontti
+  - #remontti
+  - #kvik
 author_profile: true
 ---
 

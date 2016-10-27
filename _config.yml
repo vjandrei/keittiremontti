@@ -11,8 +11,8 @@ title                    : "Keittiöremontti Blogi"
 title_separator          : "-"
 name                     : "Maukasta"
 description              : "Nyt remontoidaan ja suunnitellaan ruokabloggarin keittiö"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/keittioremontti"
+url                      : "" #www.maukasta.fi/keittoremontti remove if local
+baseurl                  : "" #/keittioremontti remove if local
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : 
+    shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -149,7 +149,7 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 50 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Helsinki
 

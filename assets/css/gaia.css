@@ -1123,10 +1123,14 @@ a,
 .section .parallax,
 .section .static-image {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   overflow: hidden;
   display: block;
   position: relative;
+}
+
+.frontpage .section .parallax, .section .static-image{
+	 height: 100vh!important;
 }
 .section .parallax > img,
 .section .parallax .filter > img,
@@ -1421,8 +1425,13 @@ a,
 .navbar .navbar-brand {
   margin: 10px 0px;
   padding: 15px 15px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 22px;
+  display: flex;
+}
+.navbar .navbar-brand img{
+	width: 39px;
+  height: auto;
 }
 .navbar .navbar-nav > li > a {
   padding: 10px 15px;
@@ -1509,7 +1518,6 @@ a,
 }
 
 .navbar-transparent {
-  padding-top: 15px;
   background-color: transparent;
   border-bottom: 1px solid transparent;
 }
@@ -2086,7 +2094,7 @@ a,
 
 .card-blog .content {
   position: relative;
-  text-align: center;
+  text-align: left;
   padding: 25px;
 }
 .card-blog .circle-black {
@@ -2287,6 +2295,7 @@ a,
 .section-header-blog,
 .section-presentation-page {
   padding: 0;
+  padding-top: 60px;
 }
 .section-header .container,
 .section-header-blog .container,
@@ -2930,6 +2939,7 @@ a,
 }
 .section-our-clients-freebie .nav-text > li.active a .image-clients img {
   opacity: 1;
+  padding: 5px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 

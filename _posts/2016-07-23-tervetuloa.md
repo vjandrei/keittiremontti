@@ -6,8 +6,12 @@ header:
 categories: 
   - Remontti
 tags:
-  - update
+  - #keittiö
+  - #keittiöremontti
+  - #remontti
+  - #kvik
 author_profile: true
+url: "http://maukasta.fi/keittioremontti/remontti/tervetuloa/"
 ---
 
 Tervetuloa keittiöremontti blogille! Pian käynnistyy remontti ja voit seuraa blogissa keittiö edistymistä.
